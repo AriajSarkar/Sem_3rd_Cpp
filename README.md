@@ -1,23 +1,58 @@
-# 🎯 C++ Programming Basics# 🎯 Time Difference Calculator
+# 🎯 C++ Programming Basics
 
-
-
-> A comprehensive collection of learning materials and exercises for my third semester of C++ programming journey.A C++ program that dynamically retrieves all available time zones from the system and calculates time differences between selected time zones.
-
-
+> A comprehensive collection of learning materials and exercises for my third semester of C++ programming journey.
 
 ## 📚 Topics Covered
-## 📚 Features
 
+• 🌟 Introduction to C++ Programming  
+• 📦 Variables and Data Types  
+• 🔄 Control Structures  
+• ⚡ Functions  
+• 🎯 Arrays and Pointers  
+• 🔰 Object-Oriented Programming Concepts  
+• 🕐 Time and Date Manipulation  
+• 📂 File I/O Operations  
+• 🔤 String Manipulation  
+• 🔄 Sorting Algorithms  
 
+## 🎯 Purpose
 
-• 🌟 Introduction to C++ Programming  - 🌟 Dynamic time zone retrieval from Windows system registry
+This repository serves as my learning playground to:
 
-• 📦 Variables and Data Types  - 📦 User-friendly selection of source and target time zones
+• Master fundamental C++ programming concepts  
+• Practice coding exercises  
+• Document my progress in C++  
+• Build a strong foundation for advanced topics  
 
-• 🔄 Control Structures  - 🔄 Time input in 12-hour format (e.g., "3:00 PM")
+## ⚙️ Compilation Commands
 
-• ⚡ Functions  - ⚡ Calculation of time differences and display of both times
+### For C++ Programs
+
+#### 1. Optimized Build with Link-Time Optimization
+
+```bash
+g++ -Os -s -flto -o <output-file> <source-file>
+```
+
+#### 2. Simple Optimized Build
+
+```bash
+g++ -Os -s -o <output-file> <source-file>
+```
+
+#### 3. With Windows Libraries (for registry access)
+
+```bash
+g++ <source-file> -ladvapi32 -o <output-file>
+```
+
+## About
+
+This is my learning repository. You wouldn't find anything exciting here! 😗🙃
+
+---
+
+Made with ❤️ during my third semester
 
 • 🎯 Arrays and Pointers  - 🎯 Handles time zone offsets and conversions
 
